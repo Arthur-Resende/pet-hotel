@@ -1,15 +1,16 @@
 import React from 'react';
-import dog from '../assets/dog.png'
+import dog from '../assets/dog.png';
+import './homepage.css';
 
 class Navbar extends React.Component {
     render() {
         return (
-            <div className="Navbar">
-                <ul>
-                <li>início</li>
-                <li>nossos profissionais</li>
-                <li>reviews</li>
-                <li>como usar</li>
+            <div className="navbar">
+                <ul className="navItems">
+                    <a href="#placeholder"><li>início</li></a>
+                    <a href="#placeholder"><li>nossos profissionais</li></a>
+                    <a href="#placeholder"><li>reviews</li></a>
+                    <a href="#placeholder"><li>como usar</li></a>
                 </ul>
             </div>
         );
@@ -20,7 +21,7 @@ class HomeBody extends React.Component {
     render() {
         return (
             <div className="container">
-                <div className="findCaretakers">
+                <div className="findCaretakers" id="#placeholder">
                     <h1>Encontre cuidadores em sua área</h1>
                     <p>Hospedagem de animais com cuidadores profissionais especializados</p>
                     <input type="text" placeholder="Onde você mora"></input>
