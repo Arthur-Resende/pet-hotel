@@ -27,9 +27,10 @@ class HomeBody extends React.Component {
                     <input type="text" placeholder="Onde você mora"></input>
                 </div>
 
-                <div className="doggo">
+                {/* <div className="doggo">
+                    <span id="ball"></span>
                     <img src={dog} alt="dog carrying a stick"></img>
-                </div>
+                </div> */}
             </div>
         );
     }
