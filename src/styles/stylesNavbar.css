@@ -3,8 +3,8 @@
     position: sticky;
     border-bottom: solid black 3px;
     background-color: #ffffff;
-    padding: 1em;
     width: 100%;
+
 }
 
 .toggle {
@@ -22,11 +22,11 @@
 .navItems {
     display: flex;
     width: fit-content;
-    margin: 0em 4em 0em auto;
+    margin-left: auto;
 }
 
 .navItems a {
-    margin: 0em 2em 0em 2em;
+    margin: 0.5em 4em 0.5em 0em;
 }
 
 @media screen and (max-width: 768px) {
@@ -46,7 +46,7 @@
 
     .toggle {
         display: inline-block;
-        margin: 0px 0px 0px auto;
+        margin: 0.5em 0em 0.5em 1em;
         width: 100%;
     }
 }
