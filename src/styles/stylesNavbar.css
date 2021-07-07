@@ -1,0 +1,16 @@
+.navbar {
+    position: sticky;
+    border-bottom: solid black 3px;
+    background-color: #ffffff;
+    padding: 1em;
+}
+
+.navItems {
+    width: fit-content;
+    margin: 0em 4em 0em auto;
+}
+
+.navItems li {
+    display: inline;
+    margin: 0em 2em 0em 2em;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
+import '../styles/stylesLanding.css';
 
-class HomeBody extends React.Component {
+class Landing extends React.Component {
     render() {
         return (
             <div className="homeBody">
@@ -21,4 +22,4 @@ class HomeBody extends React.Component {
     }
 }
 
-export default HomeBody;
+export default Landing;
