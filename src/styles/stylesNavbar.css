@@ -1,16 +1,56 @@
 .navbar {
+    display: flex;
     position: sticky;
     border-bottom: solid black 3px;
     background-color: #ffffff;
     padding: 1em;
+    width: 100%;
+}
+
+.toggle {
+    display: none;
+}
+
+.toggle span {
+    display: block;
+    height: 2px;
+    width: 20px;
+    margin: 4px 0px 4px 0px;
+    background-color: black;
 }
 
 .navItems {
+    display: flex;
     width: fit-content;
     margin: 0em 4em 0em auto;
 }
 
-.navItems li {
-    display: inline;
+.navItems a {
     margin: 0em 2em 0em 2em;
+}
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 768px) {
+    .hide {
+        display: none;
+    }
+    
+    .navItems {
+        flex-direction: column;
+        text-align: center;
+        margin: 0px auto 0px auto;
+    }
+
+    .navItems a {
+        margin: 0.3em;
+    }
+
+    .toggle {
+        display: inline-block;
+        margin: 0px 0px 0px auto;
+        width: 100%;
+    }
 }

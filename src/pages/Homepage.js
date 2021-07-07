@@ -8,7 +8,7 @@ class Home extends React.Component {
         return (
             <section className="home">
                 <Navbar></Navbar>
-                <Landing></Landing>
+                {/* <Landing></Landing> */}
             </section>
         );
     }
