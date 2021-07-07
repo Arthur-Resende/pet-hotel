@@ -29,10 +29,6 @@
     margin: 0em 2em 0em 2em;
 }
 
-@media screen and (max-width: 375px) {}
-
-@media screen and (max-width: 768px) {}
-
 @media screen and (max-width: 768px) {
     .hide {
         display: none;
