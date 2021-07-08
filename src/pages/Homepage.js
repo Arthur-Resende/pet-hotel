@@ -1,6 +1,9 @@
 import React from 'react';
+
 import Landing from '../components/Landing.js';
 import Navbar from '../components/Navbar.js';
+import TimeProfissionais from '../components/Time';
+
 import '../styles/stylesHomepage.css';
 
 class Home extends React.Component {
@@ -8,7 +11,8 @@ class Home extends React.Component {
         return (
             <section className="home">
                 <Navbar></Navbar>
-                {/* <Landing></Landing> */}
+                <Landing></Landing>
+                <TimeProfissionais></TimeProfissionais>
             </section>
         );
     }

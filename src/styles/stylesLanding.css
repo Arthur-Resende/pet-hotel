@@ -1,9 +1,29 @@
 .homeBody {
     display: flex;
     align-items: center;
-    height: 80vh;
-    background: url("../assets/dog.png") no-repeat 20em 0em;
-    background-size: 90%;
+    height: 100vh;
+    background: url("../assets/dog.png") no-repeat 24em 2em;
+    background-size: 70em;
+}
+
+.container {
+    justify-content: center;
+    margin: 0em 3em 0em 3em;
+    width: 100%;
+}
+
+.findCaretakers {
+    width: 35em;
+    text-align: center;
+    color: black;
+}
+
+.findCaretakers input {
+    width: 32em;
+    height: 2.5em;
+    border-radius: 2em 2em 2em 2em;
+    padding-left: 1em;
+    border: solid 4px black;
 }
 
 .circle {
@@ -15,22 +35,4 @@
     border-radius: 50%;
     left: 50%;
     top: 10%;
-}
-
-.container {
-    margin: 0% 4% 0% 4%;
-    width: 100%;
-}
-
-.findCaretakers {
-    width: 50%;
-    text-align: center;
-}
-
-.findCaretakers input {
-    width: 90%;
-    height: 2.5em;
-    border-radius: 2em 2em 2em 2em;
-    padding-left: 1em;
-    border: solid 3px black;
 }
