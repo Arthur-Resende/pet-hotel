@@ -3,7 +3,8 @@ import React from 'react';
 import Landing from '../components/Landing.js';
 import Navbar from '../components/Navbar.js';
 import TimeProfissionais from '../components/Time.js';
-import Review from '../components/Review.js'
+import Review from '../components/Review.js';
+import Footer from '../components/Footer.js';
 
 import '../styles/stylesHomepage.css';
 
@@ -17,6 +18,7 @@ class Home extends React.Component {
                     <TimeProfissionais></TimeProfissionais>
                     <Review></Review>
                 </div>
+                <Footer></Footer>
             </section>
         );
     }
