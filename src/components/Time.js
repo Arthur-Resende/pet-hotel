@@ -16,6 +16,7 @@ class TimeProfissionais extends React.Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Aenean varius leo in sodales faucibus. Vestibulum consequat
                             sit amet nisi ultrices tempor.</p>
+                            <button>Entre em contato!</button>
                         </div>
                     </div>
 
@@ -28,6 +29,7 @@ class TimeProfissionais extends React.Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Aenean varius leo in sodales faucibus. Vestibulum consequat
                             sit amet nisi ultrices tempor.</p>
+                            <button>Entre em contato!</button>
                         </div>
                     </div>
 
@@ -41,15 +43,9 @@ class TimeProfissionais extends React.Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Aenean varius leo in sodales faucibus. Vestibulum consequat
                             sit amet nisi ultrices tempor.</p>
+                            <button>Entre em contato!</button>
                         </div>
                     </div>
-                </div>
-                <div className="texto">
-                    <h1>Conheça nosso time de profissionais</h1>
-                    <p>Contamos com um time de profissionais especializados e 
-                    certificados para garantir a melhor qualidade de hospedagem 
-                    para seu bichinho.</p>
-                    <button>Entre em contato!</button>
                 </div>
             </div>
         );

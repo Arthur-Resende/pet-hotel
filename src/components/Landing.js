@@ -12,7 +12,8 @@ class Landing extends React.Component {
                         <input type="text" placeholder="Onde você mora"></input>
                     </div>
                 </div>
-                <div className="circle"></div>
+                <div id="backgroundSquare"></div>
+                <div id="backgroundSquare1"></div>
             </div>
         );
     }
