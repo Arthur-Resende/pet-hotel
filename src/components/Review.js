@@ -7,20 +7,15 @@ import {ReactComponent as RightArrow} from '../assets/rightArrow.svg';
 import '../styles/stylesReview.css';
 
 class Review extends React.Component {
-    render() {
-        return(
-            <section className="reviews">
-                <LeftArrow className="arrow l"></LeftArrow>
-
-                <div className="avaliação">
-                    <h1>O que pensam nossos clientes</h1>
-
-                    <img
-                        className="profilePicture"
-                        src="https://uifaces.co/our-content/donated/bUkmHPKs.jpg"
-                        alt="Review">
-                    </img>
-
+    debugReview() {
+        return (<div className="avaliação">
+            <div className="profile">
+                <img
+                    className="profilePicture"
+                    src="https://uifaces.co/our-content/donated/bUkmHPKs.jpg"
+                    alt="Review">
+                </img>
+                <div className="user">
                     <h2>Fernando Ferraz</h2>
 
                     <div className="rating">
@@ -30,16 +25,27 @@ class Review extends React.Component {
                         <Star className="star"></Star>
                         <Star className="star"></Star>
                     </div>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Phasellus convallis, mi sit amet molestie ullamcorper, ex ex 
-                    molestie enim, id lacinia nisl diam eget quam. Praesent eros 
-                    dolor, dictum sit amet pretium eu, sollicitudin ac turpis. 
-                    Sed mollis facilisis nisi, id tincidunt ligula consectetur a.
-                    </p>
                 </div>
+            </div>
 
-                <RightArrow className="arrow r"></RightArrow>
+            <div className="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Phasellus convallis, mi sit amet molestie ullamcorper, ex ex 
+                molestie enim, id lacinia nisl diam eget quam. Praesent eros 
+                dolor, dictum sit amet pretium eu, sollicitudin ac turpis.
+                </p>
+            </div>
+        </div>)
+    }
+
+    render() {
+
+        return(
+            <section className="reviews">
+                {this.debugReview()}
+                {this.debugReview()}
+                {this.debugReview()}
+                {this.debugReview()}
             </section>
         );
     }
