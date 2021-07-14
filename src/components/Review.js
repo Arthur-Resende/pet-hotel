@@ -1,8 +1,6 @@
 import React from 'react';
 
 import {ReactComponent as Star} from '../assets/star.svg';
-import {ReactComponent as LeftArrow} from '../assets/leftArrow.svg';
-import {ReactComponent as RightArrow} from '../assets/rightArrow.svg';
 
 import '../styles/stylesReview.css';
 
