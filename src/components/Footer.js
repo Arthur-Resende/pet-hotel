@@ -16,18 +16,6 @@ class Footer extends React.Component {
                     <Github className="socialIcons"></Github>
                     <Linkedin className="socialIcons"></Linkedin>
                 </div>
-
-                <div className="contactForm">
-                    <form method="post">
-                        <div className="name">
-                            <input type="text" placeholder="Sobrenome"></input>
-                            <input type="text" placeholder="Nome"></input>
-                        </div>
-                        <input type="text" placeholder="Email"></input>
-                        <input type="text" placeholder="Assunto"></input>
-                        <input type="text" placeholder="Mensagem" className="mensagem"></input>
-                    </form>
-                </div>
             </section>
         );
     }
