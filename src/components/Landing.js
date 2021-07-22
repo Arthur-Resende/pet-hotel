@@ -4,7 +4,7 @@ import '../styles/stylesLanding.css';
 class Landing extends React.Component {
     render() {
         return (
-            <div className="homeBody">
+            <div id="homeBody">
                 <div className="container">
                     <div className="findCaretakers" id="#placeholder">
                         <h1>Encontre cuidadores em sua área</h1>

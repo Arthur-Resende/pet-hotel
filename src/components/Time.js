@@ -4,7 +4,7 @@ import '../styles/stylesTime.css';
 class TimeProfissionais extends React.Component {
     render() {
         return(
-            <div className="timeProfissionais">
+            <div id="timeProfissionais">
                 <div className="cardsProfissionais">
                     <div className="profissional">
                         <img

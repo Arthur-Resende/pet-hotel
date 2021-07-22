@@ -6,7 +6,8 @@ import '../styles/stylesReview.css';
 
 class Review extends React.Component {
     debugReview() {
-        return (<div className="avaliação">
+        return (
+        <div id="avaliação">
             <div className="profile">
                 <img
                     className="profilePicture"

@@ -27,10 +27,9 @@ class Navbar extends React.Component {
                     <span></span>
                 </div>
                 <div className={"navItems " + (navbarToggle ? '':'hide')}>
-                    <a>início</a>
-                    <a>nossos profissionais</a>
-                    <a>reviews</a>
-                    <a>como usar</a>
+                    <a href="#homeBody">início</a>
+                    <a href="#timeProfissionais">nossos profissionais</a>
+                    <a href="#avaliação">reviews</a>
                 </div>
             </div>
         );

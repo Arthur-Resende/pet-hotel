@@ -6,12 +6,12 @@
 
 .profissional {
     border: solid black 4px;
-    background-color: #23b5d3;
-    width: 300px;
-    margin: 0px 20px 0px 20px;
     border-radius: 30px;
+    margin: 0px 10px;
+    width: 300px;
     text-align: center;
     line-height: 2em;
+    background-color: #23b5d3;
 }
 
 .profissional img {
@@ -34,7 +34,7 @@
     text-align: center;
     width: 90%;
     max-width: 800px;
-    margin: 0px auto 0px auto;
+    margin: 0px auto;
 }
 
 @media screen and (max-width: 900px) {
@@ -70,7 +70,7 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .cardsProfissionais {
         margin: 0px;
     }

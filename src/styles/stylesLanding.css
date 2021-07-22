@@ -1,4 +1,4 @@
-.homeBody {
+#homeBody {
     display: flex;
     align-items: center;
     height: 90vh;
@@ -63,7 +63,7 @@
         height: 3em;
     }
 
-    .homeBody {
+    #homeBody {
         background: none;
     }
 
@@ -92,7 +92,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .homeBody {
+    #homeBody {
         height: 100vh;
     }
 

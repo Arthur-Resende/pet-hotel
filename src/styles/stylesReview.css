@@ -1,3 +1,11 @@
+#avaliação {
+    margin: 3%;
+    padding: 1em;
+    border-radius: 25px;
+    border: 4px #000000 solid;
+    background-color: #ffffff;
+}
+
 .reviews {
     width: 70%;
     max-width: 800px;
@@ -6,14 +14,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: #000000;
-}
-
-.avaliação {
-    margin: 3%;
-    padding: 1em;
-    border-radius: 25px;
-    border: 4px #000000 solid;
-    background-color: #ffffff;
 }
 
 .profile {
@@ -55,7 +55,7 @@ h2 {
         width: 96%;
     }
 
-    .avaliação {
+    #avaliação {
         max-width: 500px;
         margin: 0px auto 0px auto;
         padding: 1em;
