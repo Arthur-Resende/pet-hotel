@@ -13,8 +13,18 @@ class Footer extends React.Component {
                 <div className="creator">
                     <img src={Arthur} alt="Criador do site, Arthur Resende Faria"></img>
                     <h3>Arthur Resende Faria</h3>
-                    <Github className="socialIcons"></Github>
-                    <Linkedin className="socialIcons"></Linkedin>
+                    <a
+                        href="https://github.com/Arthur-Resende/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <Github className="socialIcons"></Github>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/arthur-resende-8ab1431b4"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <Linkedin className="socialIcons"></Linkedin>
+                    </a>
                 </div>
             </section>
         );

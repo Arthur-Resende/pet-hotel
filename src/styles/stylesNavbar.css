@@ -24,8 +24,17 @@
 @media screen and (max-width: 900px) {
     .navItems.hide {
         height: 0px;
-        transition: all 0.3s ease-in-out;
         overflow: hidden;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .navItems {
+        flex-direction: column;
+        text-align: center;
+        margin: 0px auto;
+        height: 120px;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
     }
 
     .toggle span {
@@ -36,15 +45,6 @@
         background-color: #000000;
     }
     
-    .navItems {
-        flex-direction: column;
-        text-align: center;
-        margin: 0px auto;
-        height: 120px;
-        transition: all 0.3s ease-in-out;
-        overflow: hidden;
-    }
-
     .navItems a {
         margin: 0.3em;
     }
