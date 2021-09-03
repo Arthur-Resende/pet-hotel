@@ -1,16 +1,16 @@
 <h1 align="center">Pet Hotel</h1>
 
-## Sobre esse projeto
+## :information_source: Sobre esse projeto
 
 Pet hotel é um projeto de website conceitual de uma empresa pretadora de serviços de hospedagem de animais de estimação, com o objetivo é aplicar conhecimentos em ReactJS em um cenário prático.
 
-## Tecnologias usadas
+## :computer: Tecnologias usadas
 
 - ReactJS
 - Yarn
 - Eslint
 
-## como executar
+## :wrench: como executar
 
 ``` bash
 # Clone esse repositório
