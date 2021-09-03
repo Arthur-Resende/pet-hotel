@@ -2,11 +2,13 @@
 
 ## Sobre esse projeto
 
-Pet hotel é um website conceitual de uma empresa pretadora de serviços de hospedagem de bichinhos de estimação, com o objetivo é aplicar conhecimentos em ReactJS em um cenário prático.
+Pet hotel é um projeto de website conceitual de uma empresa pretadora de serviços de hospedagem de animais de estimação, com o objetivo é aplicar conhecimentos em ReactJS em um cenário prático.
 
 ## Tecnologias usadas
 
-- yarn
+- ReactJS
+- Yarn
+- Eslint
 
 ## como executar
 
